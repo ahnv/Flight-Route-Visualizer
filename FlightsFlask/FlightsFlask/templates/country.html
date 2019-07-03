@@ -1,0 +1,24 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1><span id="country"></span></h1>
+    <pre id="stats"></pre>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <img class="img-responsive" id="map1" />
+    </div>
+    <div class="col-xs-12">
+        <img class="img-responsive" id="map2" />
+    </div>
+    <div class="col-xs-12">
+        <img class="img-responsive" id="map3" />
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/scripts/country.js"></script>
+{% endblock %}
